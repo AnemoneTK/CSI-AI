@@ -44,7 +44,7 @@ function Chat() {
       <div className="flex flex-1 overflow-hidden">
         {/* Sidebar */}
         <div
-          className={`fixed top-0 left-0 z-40 h-full w-64 bg-white border-r border-gray-300 p-4 flex flex-col transform transition-transform duration-300 md:relative md:translate-x-0 ${
+          className={`fixed top-0 left-0 z-40 h-full w-70 bg-white border-r border-gray-300 p-4 flex flex-col transform transition-transform duration-300 md:relative md:translate-x-0 ${
             isSidebarOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
@@ -56,7 +56,7 @@ function Chat() {
           />
 
           {/* Chat Items */}
-          <div className="flex-1 px-2 overflow-y-auto space-y-4 scrollbar-thin scrollbar-thumb-blue-500 scrollbar-track-white">
+          <div className="flex-1 pr-2 overflow-y-auto space-y-4 scrollbar-thin scrollbar-thumb-blue-500 scrollbar-track-white">
             <div className="p-4 bg-gray-100 rounded-lg shadow">
               <p className="font-medium text-gray-800">Camera outfit</p>
               <p className="text-sm text-gray-500 truncate">
@@ -67,48 +67,6 @@ function Chat() {
               <p className="font-medium text-gray-800">Vacation planning</p>
               <p className="text-sm text-gray-500 truncate">
                 I'm planning a trip to Europe...
-              </p>
-            </div>
-            <div className="p-4 bg-gray-100 rounded-lg shadow">
-              <p className="font-medium text-gray-800">Healthy recipes</p>
-              <p className="text-sm text-gray-500 truncate">
-                Can you suggest some healthy...
-              </p>
-            </div>
-            <div className="p-4 bg-gray-100 rounded-lg shadow">
-              <p className="font-medium text-gray-800">Healthy recipes</p>
-              <p className="text-sm text-gray-500 truncate">
-                Can you suggest some healthy...
-              </p>
-            </div>
-            <div className="p-4 bg-gray-100 rounded-lg shadow">
-              <p className="font-medium text-gray-800">Healthy recipes</p>
-              <p className="text-sm text-gray-500 truncate">
-                Can you suggest some healthy...
-              </p>
-            </div>
-            <div className="p-4 bg-gray-100 rounded-lg shadow">
-              <p className="font-medium text-gray-800">Healthy recipes</p>
-              <p className="text-sm text-gray-500 truncate">
-                Can you suggest some healthy...
-              </p>
-            </div>
-            <div className="p-4 bg-gray-100 rounded-lg shadow">
-              <p className="font-medium text-gray-800">Healthy recipes</p>
-              <p className="text-sm text-gray-500 truncate">
-                Can you suggest some healthy...
-              </p>
-            </div>
-            <div className="p-4 bg-gray-100 rounded-lg shadow">
-              <p className="font-medium text-gray-800">Healthy recipes</p>
-              <p className="text-sm text-gray-500 truncate">
-                Can you suggest some healthy...
-              </p>
-            </div>
-            <div className="p-4 bg-gray-100 rounded-lg shadow">
-              <p className="font-medium text-gray-800">Healthy recipes</p>
-              <p className="text-sm text-gray-500 truncate">
-                Can you suggest some healthy...
               </p>
             </div>
             <div className="p-4 bg-gray-100 rounded-lg shadow">
